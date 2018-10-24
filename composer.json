@@ -1,6 +1,7 @@
 {
     "name": "yunduba/sdk",
     "description": "云读吧小说专用SDK合集",
+    "keywords": ["yunduba", "sdk"],
     "type": "library",
     "require": {
         "php": ">=7.0",
