@@ -5,10 +5,23 @@
  * Date: 2018/10/24
  * Time: 下午5:00
  */
+
 namespace yunduba\SDK;
 
 class Grab{
-    public static function index(){
-        echo "你好";
+    /**
+     * 取得Grab实例
+     * @static
+     * @return mixed 返回Grab
+     */
+    public static function getInstance($type)
+    {
+        $name = ucfirst(strtolower($type)) . 'SDK';
+        $class_name = __NAMESPACE__.'\\GrabSDK\\'.$name;
+        if (class_exists($class_name)) {
+            return new $class_name;
+        } else {
+            throw new \think\Exception('CLASS_NOT_EXIST:' . $name, 100002);
+        }
     }
 }
