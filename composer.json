@@ -16,6 +16,9 @@
     ],
     "minimum-stability": "dev",
     "autoload":{
+        "file":[
+            "common/function.php"
+        ],
         "psr-4":{
             "yunduba\\SDK\\":"src",
             "yunduba\\SDK\\GrabSDK\\":"GrabSDK"
