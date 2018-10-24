@@ -7,7 +7,7 @@
  */
 namespace yunduba\SDK;
 
-class Grad{
+class Grab{
     public static function index(){
         echo "你好";
     }

@@ -5,7 +5,7 @@
  * Date: 2018/10/24
  * Time: 下午5:01
  */
-namespace yunduba\SDK\GradSDK;
+namespace yunduba\SDK\GrabSDK;
 class ZhuishuSDK{
     public static function index(){
         echo "rrrr";
