@@ -7,5 +7,7 @@
  */
 namespace yunduba\SDK;
 class Grad{
-
+    public static function index(){
+        echo "你好";
+    }
 }
