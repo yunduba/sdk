@@ -1,0 +1,25 @@
+{
+    "name": "yunduba/sdk",
+    "description": "sdk",
+    "type": "porject",
+    "require": {
+        "jaeger/querylist": "*"
+    },
+    "require-dev": {
+        "jaeger/querylist": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mac-39818148",
+            "email": "39818148@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "yunduba\\SDK\\":"src",
+            "yunduba\\SDK\\GradSDK":"GradSDK"
+        }
+    }
+}
