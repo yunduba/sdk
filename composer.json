@@ -1,22 +1,23 @@
 {
     "name": "yunduba/sdk",
     "description": "云读吧SDK合集",
-    "type": "porject",
+    "type": "library",
     "require": {
+        "php": ">=5.4",
         "jaeger/querylist": "*"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "mac-39818148",
+            "name": "39818148",
             "email": "39818148@qq.com"
         }
     ],
     "minimum-stability": "dev",
     "autoload":{
         "psr-4":{
-            "yunduba\\SDK\\":"src/",
-            "yunduba\\SDK\\GradSDK\\":"GradSDK/"
+            "yunduba\\SDK\\":"src",
+            "yunduba\\SDK\\GradSDK\\":"GradSDK"
         }
     }
 }
