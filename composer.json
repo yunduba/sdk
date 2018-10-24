@@ -1,11 +1,8 @@
 {
     "name": "yunduba/sdk",
-    "description": "sdk",
+    "description": "云读吧SDK合集",
     "type": "porject",
     "require": {
-        "jaeger/querylist": "*"
-    },
-    "require-dev": {
         "jaeger/querylist": "*"
     },
     "license": "MIT",
