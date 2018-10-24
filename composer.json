@@ -14,6 +14,9 @@
         }
     ],
     "autoload":{
+        "files":[
+            "common/function.php"
+        ],
         "psr-4":{
             "yunduba\\SDK\\":"src",
             "yunduba\\SDK\\GrabSDK\\":"GrabSDK"
