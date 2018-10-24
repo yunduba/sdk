@@ -1,7 +1,7 @@
 {
     "name": "yunduba/sdk",
     "description": "云读吧小说专用SDK合集",
-    "keywords": ["yunduba", "sdk"],
+    "keywords": ["yunduba"],
     "type": "library",
     "require": {
         "jaeger/querylist": "^4.0"
