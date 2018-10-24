@@ -1,14 +1,16 @@
 {
     "name": "yunduba/sdk",
-    "description": "sdk",
-    "type": "porject",
+    "description": "云读吧小说专用SDK合集",
+    "keywords": ["yunduba", "sdk"],
+    "type": "library",
     "require": {
+        "php": ">=7.0",
         "jaeger/querylist": "^4.0"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "mac-39818148",
+            "name": "yunduba",
             "email": "39818148@qq.com"
         }
     ],
