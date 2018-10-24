@@ -4,7 +4,6 @@
     "keywords": ["yunduba", "sdk"],
     "type": "library",
     "require": {
-        "php": ">=7.0",
         "jaeger/querylist": "^4.0"
     },
     "license": "MIT",
