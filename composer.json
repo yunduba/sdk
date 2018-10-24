@@ -14,7 +14,7 @@
         }
     ],
     "autoload":{
-        "file":[
+        "files":[
             "common/function.php"
         ],
         "psr-4":{
